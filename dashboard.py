@@ -26,7 +26,7 @@ if player_name:
         selected_player = players[selected_idx]
         
         # Days of data
-        days = st.sidebar.slider("Days of data:", 7, 90, 30)
+        days = st.sidebar.slider("Days of data:", 7, 180, 30)
         
         # Get data
         with st.spinner("Getting player data..."):
